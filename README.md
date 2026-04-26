@@ -10,6 +10,7 @@
 - **Tên bài báo:** Android Ransomware Detection Using Supervised Machine Learning Techniques Based on Traffic Analysis
 - **Tạp chí:** MDPI Sensors 2024
 - **Link bài báo:** https://www.mdpi.com/1424-8220/24/1/189
+- **DOI:** 10.3390/s24010189
 
 ## Dataset
 - **Nguồn:** Kaggle
@@ -42,7 +43,7 @@
 | **Random Forest** | **76.83%** | - | - | - |
 | XGBoost | 74.97% | - | - | - |
 
-> ✅ Random Forest đạt accuracy cao nhất — vượt trội so với tất cả mô hình gốc
+> **Random Forest đạt accuracy cao nhất 76.83%** — vượt trội so với tất cả mô hình gốc
 
 ## Kết quả biểu đồ
 | Biểu đồ | Mô tả |
@@ -72,3 +73,8 @@
 - TensorFlow/Keras
 - pandas, numpy, matplotlib, seaborn
 - imbalanced-learn
+
+## Kết luận
+- Mô hình **Random Forest** (cải tiến) đạt kết quả tốt nhất với **76.83% accuracy**
+- Experiment 1 (80 features) cho kết quả tốt hơn Experiment 2 (19 features)
+- Phân tích traffic mạng là phương pháp hiệu quả để phát hiện ransomware Android

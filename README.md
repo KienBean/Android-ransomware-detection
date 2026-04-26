@@ -77,4 +77,4 @@
 ## Kết luận
 - Mô hình **Random Forest** (cải tiến) đạt kết quả tốt nhất với **76.83% accuracy**
 - Experiment 1 (80 features) cho kết quả tốt hơn Experiment 2 (19 features)
-- Phân tích traffic mạng là phương pháp hiệu quả để phát hiện ransomware Android
+- Phân tích Traffic mạng là phương pháp hiệu quả để phát hiện ransomware Android
